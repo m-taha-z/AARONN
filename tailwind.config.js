@@ -3,8 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     fontFamily: {
-      rubik: ["Rubik, sans-serif"],
       syne: ["Syne, sans-serif"],
+      rubik: ["Rubik, sans-serif"],
+      Inter: ["Inter, sans-serif"],
     },
     extend: {
       colors: {
@@ -14,10 +15,10 @@ module.exports = {
           2: "#262A2C",
           3: "#696969",
           4: "#FFFFFF",
-          5:"#ffffff84",
-          6:"#A8A8A8",
-          7:"#606060",
-          border:"#FF9142",
+          5: "#ffffff84",
+          6: "#A8A8A8",
+          7: "#606060",
+          border: "#FF9142",
         },
         Greyscale: {
           1: "#6C727F",
