@@ -20,16 +20,20 @@
     <link rel="stylesheet" href="/style/style.css" />
     <link rel="stylesheet" href="/dist/output.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./My-work.html">
+    <link rel="stylesheet" href="./My-work.html" />
     <title>AARONN</title>
     <link rel="icon" type="image/x-icon" href="/img/Untitled.png" />
   </head>
   <body class="bg-SC-1">
-
     <div class="hero pt-[33px] px-[144px]">
-      <nav class="flex items-start justify-evenly">
+      <nav
+        class="flex items-start justify-evenly"
+        data-aos="flip-down"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="\1500"
+      >
         <a href="./index.html">
-            <svg
+          <svg
             xmlns="http://www.w3.org/2000/svg"
             width="125"
             height="28"
@@ -75,33 +79,38 @@
           </svg>
         </a>
         <ul
-          class="flex justify-end w-[1160px] flex-wrap gap-[50px]"
-          style="font-family: 'Rubik Mono One', monospace"
+          class="flex justify-end w-[1160px] flex-wrap gap-[50px] font-rubik text-[14px] font-extrabold leading-normal uppercase"
         >
           <li class="">
-            <a class="text-SC-5" href="#">Home</a>
+            <a class="text-SC-5" href="./index.html">Home</a>
           </li>
           <li class="">
-            <a class="text-SC-5" href="#"> About me </a>
+            <a class="text-SC-5" href="./About-Me.html"> About me </a>
           </li>
           <li class="">
             <a class="text-SC-5" href="./My-work.html"> My works </a>
           </li>
           <li
-            class="opacity-50 text-white flex self-center w-[138px] h-[47px] items-center justify-center border-white border-solid border-2 bg-[#03030480] rounded-[30px] font-bold text-[14px] mt-[-10px]"
+            class="opacity-50 text-white flex self-center w-[138px] h-[47px] items-center justify-center border-white border-solid border-2 bg-[#03030480] rounded-[30px] font-extrabold text-[14px] mt-[-10px]"
           >
-            <a class="text-SC-4" href="#"> Contact</a>
+            <a class="text-SC-4" href="./Project-Detail.html"> Contact</a>
           </li>
         </ul>
       </nav>
       <div class="contact flex justify-center">
         <h1
           class="flex text-[72px] text-center text-SC-4 absolute top-[271px] font-syne"
+          data-aos="fade-right"
         >
           Adaptive Logo Design <br />
           for Your Brand
         </h1>
-        <div class="bg w-[100%] flex justify-end">
+        <div
+          class="bg w-[100%] flex justify-end"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="917"
@@ -142,7 +151,8 @@
           </svg>
         </div>
         <div
-          class="button flex items-center justify-evenly w-[242px] h-[65px] bg-primary rounded-[32px] text-[13px] bg-Brand-Colors absolute top-[536px] text-white"
+          class="button flex text-center items-center justify-evenly w-[242px] h-[65px] bg-primary rounded-[32px] text-[13px] bg-Brand-Colors absolute top-[536px] text-[#F4F7FA] font-bold leading-normal uppercase tracking-[1.625px]"
+          data-aos="fade-left"
         >
           Explore works
           <svg
@@ -171,9 +181,21 @@
       </div>
     </div>
 
-    <div class="100-vh2 py-[150px] h-screen w-[100%] pt-[33px] px-[144px] flex justify-between">
-      <div class="leftpart w-[50%] py-[150px]">
-        <div class="shdo absolute top-[736px] left-[-50px]">
+    <div
+      class="100-vh2 py-[150px] h-screen w-[100%] pt-[33px] flex justify-between"
+    >
+      <div
+        class="leftpart w-[50%] py-[150px] pl-[144px]"
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
+        <div
+          class="shdo absolute top-[36px] left-[-50px]"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="575"
@@ -213,10 +235,7 @@
             </defs>
           </svg>
         </div>
-        <h2
-          class="text-[56px] inline-block text-white"
-          style="font-family: 'Syne', sans-serif"
-        >
+        <h2 class="text-[56px] inline-block text-white font-syne">
           Let’s get know <br />
           about me closer
         </h2>
@@ -226,13 +245,17 @@
           spanning books, posters and web design.
         </p>
         <div
-          class="mt-[75px] flex items-center justify-evenly w-[242px] h-[65px] bg-primary rounded-[32px] bg-Brand-Colors text-white text-[16px]"
-          style="font-family: 'Rubik Mono One', monospace"
+          class="mt-[75px] flex items-center justify-evenly w-[242px] h-[65px] bg-primary rounded-[32px] bg-Brand-Colors text-white text-[16px] font-semibold"
         >
           Discover More About Me
         </div>
       </div>
-      <div class="right-part h-screen flex justify-end items-center">
+      <div
+        class="right-part h-screen flex justify-end items-center pr-[144px]"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+      >
         <img
           class="w-[500px] h-[530px]"
           src="/img/man.png"
@@ -243,12 +266,14 @@
 
     <div class="wapr pt-[150px] px-[144px] h-auto">
       <div class="text flex flex-col justify-center w-[100wh] items-center">
-        <h2
-          class="text-[64px] text-white"
-          style="font-family: 'Syne', sans-serif"
-        >
+        <h2 class="text-[64px] text-white font-syne" data-aos="zoom-out-down">
           My Projects Highlight
-          <div class="absolute top-[175vh] right-0">
+          <div
+            class="absolute top-[-250px] right-[-150px]"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="741"
@@ -291,7 +316,8 @@
         </h2>
 
         <div
-          class="button flex items-center justify-evenly w-[242px] h-[65px] bg-primary rounded-[32px] mt-[60px] text-[13px] border-[1px] border-separate border-SC-border text-white"
+          class="button flex items-center justify-evenly w-[242px] h-[65px] bg-primary rounded-[32px] mt-[60px] text-[13px] border-[1px] border-separate border-SC-border text-white font-rubik font-bold uppercase"
+          data-aos="zoom-out-up"
         >
           Explore works
           <svg
@@ -319,11 +345,10 @@
         </div>
       </div>
 
-      <div
-        class="wpar-card flex flex-wrap justify-between gap-x-[35px] py-[10px]"
-      >
+      <div class="wpar-card flex flex-wrap justify-between py-[10px]">
         <div
           class="card-1 mt-[100px] flex flex-wrap gap-[32px] h-[770px] w-[550px]"
+          data-aos="flip-right"
         >
           <div class="wparimg">
             <img src="/img/card-1.png" alt="" />
@@ -355,6 +380,7 @@
 
         <div
           class="card-2 mt-[100px] flex flex-wrap gap-[32px] h-[770px] w-[550px]"
+          data-aos="flip-left"
         >
           <div class="wparimg">
             <img src="/img/card-2.png" alt="" />
@@ -386,6 +412,7 @@
 
         <div
           class="card-3 mt-[100px] flex flex-wrap gap-[32px] h-[770px] w-[550px]"
+          data-aos="flip-right"
         >
           <div class="wparimg">
             <img src="/img/card-3.png" alt="" />
@@ -416,6 +443,7 @@
 
         <div
           class="card-4 mt-[100px] flex flex-wrap gap-[32px] h-[770px] w-[550px]"
+          data-aos="flip-left"
         >
           <div class="wparimg">
             <img src="/img/card-4.png" alt="" />
@@ -447,11 +475,13 @@
     </div>
 
     <div class="Testimonial h-[85vh] px-[144px] flex flex-row justify-between">
-      <div
-        class="wpartext w-[65%] flex flex-col"
-        style="font-family: 'Syne', sans-serif"
-      >
-        <div class="shdo absolute left-[-50px]">
+      <div class="wpartext w-[65%] flex flex-col font-syne">
+        <div
+          class="shdo absolute left-[-50px]"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="575"
@@ -493,14 +523,18 @@
         </div>
 
         <h2
-          class="text-white h-[100%] text-[64px] font-bold mt-[150px]"
-          style="font-family: Syne"
+          class="text-white h-[100%] text-[64px] font-bold mt-[150px] font-syne"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="12000"
         >
           Testimonial
         </h2>
         <p
-          class="long text-[#949494] font-rubik text-[18px] text-justify"
-          style="font-family: 'Rubik Mono One', monospace"
+          class="long text-[#949494] text-[18px] text-justify font-rubik"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="9000"
         >
           “Aaronn was fantastic to work with from start to finish. We were
           looking for a simple, stand-out logo and he delivered. I tried
@@ -512,11 +546,19 @@
           professionalism. I would recommend him to anyone looking for a
           design!”
         </p>
-        <h3 class="text-white h-[100%] text-[24px] font-bold mt-10 font-syne">
+        <h3
+          class="text-white h-[100%] text-[24px] font-bold mt-10 font-syne"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="6000"
+        >
           -Martin lee
         </h3>
       </div>
-      <div class="waprsvg h-[100%] flex items-center mb-2 ml-[200px]">
+      <div
+        class="waprsvg h-[100%] flex items-center mb-2 ml-[200px]"
+        data-aos="fade-left"
+      >
         <svg
           width="161"
           height="93"
@@ -547,17 +589,30 @@
       </div>
     </div>
 
-    <footer class="bg-[#131313] h-screen pt-[100px] flex items-center flex-col">
-      <h2 class="font-syne text-SC-border text-[24px] font-bold">
-        Get in Touch With Us
-      </h2>
-      <a
-        href="#"
-        class="text-white text-[64px] font-syne font-bold border-b-[7px]"
-        >info@aaronn.com</a
-      >
-      <div class="row flex justify-between w-full mt-[192px] px-[144px]">
-        <div class="logo mr-7">
+    <footer class="bg-[#131313] h-[740px] text-white mt-[100px] px-[144px]">
+      <div class="col flex flex-col items-center mt-[100px]">
+        <p
+          class="text-SC-border font-syne text-center font-bold text-[24px] mt-[100px]"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+        >
+          Get in Touch With Us
+        </p>
+        <a
+          href="#"
+          class="text-secondry-400 text-[64px] font-syne font-bold border-b-[7px] border-secondry-400"
+          data-aos="fade-down"
+          data-aos-anchor-placement="center-bottom"
+          >info@aaronn.com
+        </a>
+      </div>
+
+      <div class="row flex justify-between mt-[192px]">
+        <div
+          class="logo"
+          data-aos="fade-down"
+          data-aos-anchor-placement="center-bottom"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="241"
@@ -603,11 +658,19 @@
             />
           </svg>
         </div>
-        <div class="font-syne text-[24px] font-bold text-white w-[285px]">
+        <div
+          class="font-syne text-[24px] font-bold text-secondry-400 w-[285px]"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+        >
           Street Avenue 21, CA0-8-00-888- <br />
           000
         </div>
-        <div class="font-syne text-[24px] font-bold text-white">
+        <div
+          class="font-syne text-[24px] font-bold text-secondry-400"
+          data-aos="fade-down"
+          data-aos-anchor-placement="center-bottom"
+        >
           <p>+9 0283353</p>
           <div class="icon-part">
             <svg
@@ -618,6 +681,8 @@
               fill="none"
             >
               <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
                 d="M25.1582 0H1.56836C1.28398 0 1.01124 0.105357 0.810153 0.292893C0.609064 0.48043 0.496094 0.734784 0.496094 1L0.496094 23C0.496094 23.2652 0.609064 23.5196 0.810153 23.7071C1.01124 23.8946 1.28398 24 1.56836 24H14.1675V15H10.9507V11.25H14.1675V8.25C14.1675 5.15 16.2723 3.625 19.2372 3.625C20.6568 3.625 21.8781 3.724 22.2331 3.767V7.007L20.1775 7.008C18.5648 7.008 18.1885 7.723 18.1885 8.771V11.25H22.2095L21.4053 15H18.1885L18.2528 24H25.1582C25.4426 24 25.7153 23.8946 25.9164 23.7071C26.1175 23.5196 26.2305 23.2652 26.2305 23V1C26.2305 0.734784 26.1175 0.48043 25.9164 0.292893C25.7153 0.105357 25.4426 0 25.1582 0"
                 fill="#C4C4C4"
               />
@@ -633,12 +698,18 @@
           </div>
         </div>
       </div>
-      <div class="h-[1px] w-[80%] bg-[#949494]"></div>
       <div class="info mt-[74px]">
-        <p class="font-syne text-[24px] font-bold mt-9 text-white text-center">
+        <hr />
+        <p
+          class="font-syne text-[24px] font-bold mt-9 text-secondry-400 text-center"
+        >
           © 2023. Ideapeel. All rights reserved.
         </p>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
