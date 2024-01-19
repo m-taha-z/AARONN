@@ -612,6 +612,10 @@ video {
   margin-top: 150px;
 }
 
+.mt-\[160px\] {
+  margin-top: 160px;
+}
+
 .mt-\[192px\] {
   margin-top: 192px;
 }
@@ -636,14 +640,6 @@ video {
   margin-top: 90px;
 }
 
-.mb-\[176px\] {
-  margin-bottom: 176px;
-}
-
-.mt-\[160px\] {
-  margin-top: 160px;
-}
-
 .inline-block {
   display: inline-block;
 }
@@ -656,12 +652,16 @@ video {
   height: 100%;
 }
 
+.h-\[140px\] {
+  height: 140px;
+}
+
 .h-\[1px\] {
   height: 1px;
 }
 
-.h-\[300vh\] {
-  height: 300vh;
+.h-\[320vh\] {
+  height: 320vh;
 }
 
 .h-\[440px\] {
@@ -694,18 +694,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[320vh\] {
-  height: 320vh;
-}
-
-.h-\[140px\] {
-  height: 140px;
-}
-
-.h-\[60px\] {
-  height: 60px;
 }
 
 .w-\[100\%\] {
@@ -760,10 +748,6 @@ video {
   width: 100%;
 }
 
-.w-\[224px\] {
-  width: 224px;
-}
-
 .border-separate {
   border-collapse: separate;
 }
@@ -814,10 +798,6 @@ video {
 
 .gap-\[50px\] {
   gap: 50px;
-}
-
-.gap-\[30px\] {
-  gap: 30px;
 }
 
 .gap-x-\[35px\] {
@@ -931,16 +911,16 @@ video {
   text-align: justify;
 }
 
+.font-Inter {
+  font-family: Inter, sans-serif;
+}
+
 .font-rubik {
   font-family: Rubik, sans-serif;
 }
 
 .font-syne {
   font-family: Syne, sans-serif;
-}
-
-.font-Inter {
-  font-family: Inter, sans-serif;
 }
 
 .text-\[13px\] {
@@ -979,10 +959,6 @@ video {
   font-weight: 700;
 }
 
-.leading-8 {
-  line-height: 2rem;
-}
-
 .text-SC-4 {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1012,18 +988,14 @@ video {
   color: rgb(148 148 148 / var(--tw-text-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[px\] {
-  color: px;
-}
-
 .text-\[\#F4F7FA\] {
   --tw-text-opacity: 1;
   color: rgb(244 247 250 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .opacity-50 {
@@ -1032,8 +1004,4 @@ video {
 
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.hover\:text-\[\#ff9143a4\]:hover {
-  color: #ff9143a4;
 }
