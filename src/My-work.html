@@ -82,18 +82,27 @@
           class="flex justify-end w-[1160px] flex-wrap gap-[50px] font-rubik text-[14px] font-extrabold leading-normal uppercase"
         >
           <li class="">
-            <a class="text-SC-5" href="./index.html">Home</a>
+            <a class="text-SC-5 hover:text-white" href="./index.html">Home</a>
           </li>
           <li class="">
-            <a class="text-SC-5" href="./About-Me.html"> About me </a>
+            <a class="text-SC-5 hover:text-white" href="./About-Me.html">
+              About me
+            </a>
           </li>
           <li class="">
-            <a class="text-SC-5" href="./My-work.html"> My works </a>
+            <a class="text-SC-5 hover:text-white" href="./My-work.html">
+              My works
+            </a>
           </li>
           <li
-            class="opacity-50 text-white flex self-center w-[138px] h-[47px] items-center justify-center border-white border-solid border-2 bg-[#03030480] rounded-[30px] font-extrabold text-[14px] mt-[-10px]"
+            class="opacity-50 flex self-center w-[138px] h-[47px] items-center justify-center border-solid border-2 bg-[#03030480] rounded-[30px] font-extrabold text-[14px] mt-[-10px]"
           >
-            <a class="text-SC-4" href="./Project-Detail.html"> Contact</a>
+            <a
+              class="text-SC-4 hover:text-SC-border"
+              href="./Project-Detail.html"
+            >
+              Contact</a
+            >
           </li>
         </ul>
       </nav>
@@ -163,14 +172,13 @@
       <hr class="mt-[90px]" />
 
       <div class="waprcard">
-        <div
-          class="wparcard1 flex flex-wrap justify-between mt-[100px]"
-          data-aos="flip-down"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="1500"
-        >
+        <div class="wparcard1 flex flex-wrap justify-between mt-[100px]">
           <div
             class="card1 h-[440px] font-Inter font-bold text-white flex flex-col items-center justify-between"
+            data-aos="fade-right"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500"
           >
             <img src="../img/Image-card-1.png" alt="" />
             <p class="font-bold font-Inter text-[#F4F7FA] text-[13px]">blue</p>
@@ -181,6 +189,7 @@
 
           <div
             class="card2 h-[440px] font-Inter font-bold text-white flex flex-col items-center justify-between"
+            data-aos="flip-down"
           >
             <img src="../img/Image-card-2.png" alt="" />
             <p class="font-bold font-Inter text-[#F4F7FA] text-[13px]">green</p>
@@ -191,6 +200,10 @@
 
           <div
             class="card3 h-[440px] font-Inter font-bold text-white flex flex-col items-center justify-between"
+            data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500"
           >
             <img src="../img/Image-card-3.png" alt="" />
             <p class="font-bold font-Inter text-[#F4F7FA] text-[13px]">aqua</p>
