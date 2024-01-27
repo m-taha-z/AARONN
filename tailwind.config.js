@@ -18,6 +18,7 @@ module.exports = {
           5: "#ffffff84",
           6: "#A8A8A8",
           7: "#606060",
+          8: "#9CA7B8",
           border: "#FF9142",
         },
         Greyscale: {
