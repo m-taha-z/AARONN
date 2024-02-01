@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  },
+  "scripts": {
+    "start": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "name": "aaronn-finish",
+  "description": "��#\u0000 \u0000A\u0000A\u0000R\u0000O\u0000N\u0000N\u0000\r\u0000 \u0000",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "author": "",
+  "license": "ISC"
+}
